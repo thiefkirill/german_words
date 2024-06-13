@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Німецькі слова</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <h1>Німецькі слова</h1> -->
+        <div class="word-list"></div>
+        <form id="add-word-form">
+            <input type="text" id="ukrainian-word" placeholder="Українське слово" required>
+            <input type="text" id="german-word" placeholder="Німецьке слово" required>
+            <input type="color" id="word-color" value="#e7e7e7">
+            <button type="submit">Додати слово</button>
+        </form>
+        <button id="delete-selected">Видалити обрані</button>
+        <input type="file" id="background-input">
+        <div id="error-box" class="error-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
